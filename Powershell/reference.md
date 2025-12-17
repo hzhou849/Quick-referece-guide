@@ -49,23 +49,25 @@ $queue.CopyTo($myArray, 0)
 Purpose: Copies the elements to an existing array, starting at a particular index.
 
 6. Count (Property)
+Purpose: Gets the number of elements in the queue.
 ```ps
 $count = $queue.Count
 ```
-Purpose: Gets the number of elements in the queue.
 
 7. IsEmpty (Property)
-powershell
-
-$isEmpty = $queue.IsEmpty
 Purpose: Checks if the queue is empty.
-8. GetEnumerator
-powershell
+```ps
+$isEmpty = $queue.IsEmpty
+```
 
+8. GetEnumerator
+Purpose: Returns an enumerator that iterates through the queue.
+```ps
 foreach ($item in $queue) {
     # Process each item
 }
-Purpose: Returns an enumerator that iterates through the queue.
+```
+
 Summary Table
 Method/Property	Purpose
 Enqueue	Add item to end of queue
