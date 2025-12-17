@@ -20,35 +20,40 @@ Purpose: Adds an item to the end of the queue.
 if ($queue.TryDequeue([ref]$item)) {
     # $item now contains the dequeued value
 }
+```
 Purpose: Attempts to remove and return the object at the beginning of the queue.
 Returns: True if successful, False if the queue was empty.
-```
+
 
 3. TryPeek
-```
+```ps
 if ($queue.TryPeek([ref]$item)) {
     # $item now contains the value at the front of the queue, but it is not removed
 }
+```
 Purpose: Attempts to return the object at the beginning of the queue without removing it.
 Returns: True if successful, False if the queue was empty.
-```
+
 
 4. ToArray
-powershell
-
+```ps
 $array = $queue.ToArray()
+```
 Purpose: Copies the queue elements to a new array.
-5. CopyTo
-powershell
 
+5. CopyTo
+```ps
 $myArray = New-Object string[] $queue.Count
 $queue.CopyTo($myArray, 0)
+```
 Purpose: Copies the elements to an existing array, starting at a particular index.
-6. Count (Property)
-powershell
 
+6. Count (Property)
+```ps
 $count = $queue.Count
+```
 Purpose: Gets the number of elements in the queue.
+
 7. IsEmpty (Property)
 powershell
 
