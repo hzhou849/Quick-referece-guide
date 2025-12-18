@@ -1,6 +1,7 @@
 # Putty ssh
 
 ## setup ssh with no password using ED25519 keys
+* For some reason, plink won't work with rsa, must use ed25519 keys
 * In order to ssh on to an ubuntu node without password, you must add the rsa public/private pair keys
 1) Using PuTTygen generate a Ed25519 type key
 2) save both public, private keys files
