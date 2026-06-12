@@ -1,4 +1,4 @@
-# Windows reference
+# Windows PS script reference
 
 ## Queues
 
