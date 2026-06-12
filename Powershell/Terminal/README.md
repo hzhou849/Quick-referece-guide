@@ -12,6 +12,11 @@
 * The ```$PROFILE``` env variable is linked to the default config file.
 * user ```<text_editor> ie code $PROFILE``` to edit and make changes to the profile file.
 
+#### Refresh the terminal window
+Simply run ```.$PROFILE``` in termianl to re-source it in the current session
+
+## How to edit file
+* with vscode ```code $PROFILE``` in terminal 
 ```powershell
 Set-PSReadlineOption -BellStyle None  # Disables the backspace bell sound 
 function goto-python { Set-Location "C:\Development\python" }    # sets alias
