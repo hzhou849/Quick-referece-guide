@@ -1,6 +1,7 @@
 # Argument parsing
 
 * [Adding Descriptions](#adding-descriptions)
+  - default variables ie program name
   - Help screen
   - epilogues
 * [Flags](#flags)
@@ -9,6 +10,10 @@
 ## Adding Descriptions
 ### Help screen
 Trigger help screens with ```-h or --help ``` flags.
+
+### program name 
+add system variable ```%(prog)s``` will auto populate with the program name 
+
 
 ### Epilogues allow you to add text after the argument definitions at the end(bottom) of screen
 
