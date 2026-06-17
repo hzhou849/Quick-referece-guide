@@ -1,7 +1,8 @@
 # Powershell Terminal Notes:
 
 ## Table of Contents:
-* [Profile / Bashrc Default Settings](#profile-bashrc-default-settings)
+* [Terminal split views](#terminal-split-views)
+* [Profile / Bashrc Default Settings](#profile--bashrc-default-settings)
   - set alias
   - disable bell sound in terminal
 * [ENV path for session](#env-path-for-session)
@@ -28,3 +29,15 @@ TO set temporary ENV path for the session only
 ```
 $env:Path += ";C:\Program Files\OpenSSL-Win64\bin"
 ```
+
+## Terminal split views
+In the windows terminal app you can split the views 
+
+### Controls
+
+| Feature   | Commmand |
+|-----------| ---------|
+| Horizontal | Alt + Shift + ``` - ``` |
+| Vertical   | Alt + Shift + ```+```   |
+| Adjust size | Alt + shit + ```up,down,left, right``` |
+| Move btwn windows panes | Alt + ```up,down,left,right``` |
