@@ -4,7 +4,7 @@
 [icons](#icons)
 
 ## Box drawing
-
+* Hold down alt key and type out the number combination
 | Symbol | Command |
 | ------ | --------|
 | ─  | ALT + 196 |
