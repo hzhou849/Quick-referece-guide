@@ -7,6 +7,7 @@
   - disable bell sound in terminal
 * [ENV path for session](#env-path-for-session)
   - Set temporary path for session
+* [Install packages with Winget](#install-packages-with-winget)
 
 
 ## Profile / Bashrc Default Settings
@@ -41,3 +42,24 @@ In the windows terminal app you can split the views
 | Vertical   | Alt + Shift + ```+```   |
 | Adjust size | Alt + shit + ```up,down,left, right``` |
 | Move btwn windows panes | Alt + ```up,down,left,right``` |
+
+
+## Install packages with winget
+
+#### Install package
+```winget install -e --id <package_Idname>
+#### Search for package name
+```winget search openssl```
+
+this will return
+```
+winget search openssl
+Name               Id                             Version Match            Source
+---------------------------------------------------------------------------------
+OpenSSL            ShiningLight.OpenSSL.Dev       4.0.1                    winget
+FireDaemon OpenSSL FireDaemon.OpenSSL             4.0.1   Command: openssl winget
+OpenSSL Light LTS  ShiningLight.OpenSSL.LTS.Light 3.5.6   Command: openssl winget
+OpenSSL Light      ShiningLight.OpenSSL.Light     4.0.1   Command: openssl winget
+FireDaemon Lozenge FireDaemon.FireDaemonLozenge   3.1.3   Tag: openssl     winget
+Stunnel            MichalTrojnara.Stunnel         5.78    Tag: openssl     winget
+```
